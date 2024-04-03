@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Lesson2</title>
+        <meta charset="UTF-8"> <!--Standart meta data to set uniform characters-->
           
     </head>     
    
@@ -15,11 +17,95 @@
         <h1>Lesson 2</h1>
         <p>Lesson 2 paragraph 1</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reprehenderit,  ut dolore,<br> molestias est incidunt voluptatum delectus blanditiis labore laboriosam suscipit id facere, rerum optio.</p>
-        
-    
+        <P>2x<sup>3</sup> + log<sub>2</sub>10 = 10</P>
+        <p>Siin on <i>Itaalia</i> text ning on olemas ka <strong>Tugev</strong> ja <b>Bold</b>.</p>
+        <p>Õun oli väga magus.</p>
 
+        <!--
+            a - link tag
+            light blue/teal - attribute
+            href - destination
+            brown - atttribute value
+            src="" - source (images etc)
+
+
+
+        -->
+        <a target="_blank" href="https://www.google.com/">Google</a> <br>
+        <a href="../Lesson1/index.html">Lesson1</a>
+        
+        <!--
+            <ol> ordered list - list numbering automatically
+            <ul> undordered list - adds dots instead of number to the list
+        -->
+        <ol>
+            <li style= "padding-left: 1rem;">Mopeed</li>
+            <li style= "padding-left: 1rem;">Auto</li>
+            <li style= "padding-left: 1rem;">Buss</li>
+        </ol>
+
+        <ul>
+            <li style="padding-left: 1rem;">Mopeed</li>
+            <li style="padding-left: 1rem;">Auto</li>
+            <li style="padding-left: 1rem;">Buss</li>
+        </ul>
+
+
+        <!--
+            tables
+            th- table heading
+            tr - table row
+            td - table data
+
+        -->
+        <table>
+            <tr style="padding-right: 10px;">
+                <th>Nimi</th>
+                <th>Linn</th>
+                <th>Sihtkoht</th>
+                <th>Buss</th>
+            </tr>
+            <tr>
+                <td>Hando</td>
+                <td colspan="2">Tallinn</td>
+                <td>50</td>
+                
+            </tr>
+            <tr>
+                <td>Juss</td>
+                <td>Pärnu</td>
+                <td>Rakvere</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Linda</td>
+                <td>Vändra</td>
+                <td>Rakvere</td>
+                <td>89</td>
+            </tr>
+
+        </table>
+
+
+    <iframe width="634" height="356.5" src="https://www.youtube.com/embed/ZB_yS--B8rA"
+        title="Military Motivation - &quot;Take It&quot;" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
-    
+        <!--
+            GET method - data is sent in URL
+            POST method - data is sent more securely(data is hidden in backend)
+
+            <form action="./test.php" metohd="POST">
+        -->
+
+        <form>
+            <label>Username</label>
+            <input type="text"><br>
+            <label>Passowrd</label>
+            <input type="password"><br>
+            <input type="Submit">
+        </form>
     
     </body>
 
