@@ -1,0 +1,155 @@
+body {
+    background-image: linear-gradient(rgba(6, 17, 78, 0.911), rgba(19, 71, 167, 0.84) 50%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: space-around;
+    height: 500px;
+}
+
+h1 {
+    grid-row: 1;
+    margin-left: 125px;
+    margin-top: 125px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fffd01;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgba(11, 12, 2, 0.466) 0 8px 12px;
+}
+
+
+.pic {
+    z-index: 0;
+    height: 300px;
+    box-shadow: rgba(6, 63, 1, 0.24) 0 2px 2px, rgba(22, 24, 1, 0.4) 0 8px 12px;
+}
+
+
+
+.uudis1 {
+    display: flex;
+    grid-column-start: 1;
+    grid-row: 2;
+}
+
+.uudis2 {
+    display: flex;
+    grid-column-start: 2;
+    grid-row: 2;
+}
+
+.uudis3 {
+    display: flex;
+    grid-column-start: 3;
+    grid-row: 2;
+}
+
+.maintext {
+    padding-left: 25px;
+    margin-top: 5em;
+    position: absolute;
+}
+
+.uudis1 >.maintext > h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #8ce2fa;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
+}
+
+.uudis2 > .maintext > h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f89468;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
+}
+
+.uudis3 > .maintext > h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #96C94A;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
+}
+
+
+.uudis1 > .maintext > p {
+    width: 300px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8ce2fa;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
+}
+
+.uudis2 > .maintext > p {
+    width: 300px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#f89468;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
+}
+
+.uudis3 > .maintext > p {
+    width: 300px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #96C94A;
+    text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
+}
+
+
+ .b72 {
+    padding-left: 5%;
+    width: 7em;
+} 
+
+/* CSS */
+.button-72 {
+    
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(rgba(132, 142, 201, 0.84), rgba(21, 88, 214, 0.84) 50%);
+    
+    border-width: 0;
+    box-shadow: rgba(6, 63, 1, 0.24) 0 2px 2px, rgba(22, 24, 1, 0.4) 0 8px 12px;
+    color: #fffd01;
+    cursor: pointer;
+    display: flex;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    letter-spacing: .04em;
+    line-height: 16px;
+    margin: 0;
+    padding: 18px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px, rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px, rgba(57, 31, 91, 0.32) 4px 4px 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+.button-72:hover {
+    background-image: linear-gradient(#ce435a, #e03e0d 50%);
+}
+
+@media (min-width: 768px) {
+    .button-72 {
+        font-size: 21px;
+        padding: 18px 34px;
+    }
+}
+
