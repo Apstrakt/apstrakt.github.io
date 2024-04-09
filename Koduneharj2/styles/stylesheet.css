@@ -163,7 +163,7 @@ h1 {
         grid-template-columns: 10px 768px 10px;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 50px;
-        justify-content: center space-around;
+        justify-content: center space-evenly;
         width: 100%;
 
     }
@@ -171,6 +171,7 @@ h1 {
     h1 {
         width: 100%;
         margin-left: 150px;
+        justify-content: center space-around;
     }
 
     .uudis1 {
