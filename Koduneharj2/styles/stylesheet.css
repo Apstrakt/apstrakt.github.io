@@ -5,6 +5,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto;
     gap: 10px;
     justify-content: space-around;
     height: 500px;
@@ -151,5 +152,36 @@ h1 {
         font-size: 21px;
         padding: 18px 34px;
     }
+
+    
+    
 }
 
+@media (max-width: 768px) {
+    .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px;
+            justify-content: center;
+
+    }
+    
+            .uudis1 {
+                display: flex;
+                grid-column-start: 1;
+                grid-row: 2;
+            }
+    
+            .uudis2 {
+                display: flex;
+                grid-column-start: 1;
+                grid-row: 3;
+            }
+    
+            .uudis3 {
+                display: flex;
+                grid-column-start: 1;
+                grid-row: 4;
+            }
+}
