@@ -171,17 +171,20 @@ h1 {
                 display: flex;
                 grid-column-start: 1;
                 grid-row: 2;
+                width: 100%;
             }
     
             .uudis2 {
                 display: flex;
                 grid-column-start: 1;
                 grid-row: 3;
+                width: 100%;
             }
     
             .uudis3 {
                 display: flex;
                 grid-column-start: 1;
                 grid-row: 4;
+                width: 100%;
             }
 }
