@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(6, 17, 78, 0.911), rgba(19, 71, 167, 0.84) 50%);
+    background-color:#084b5e;
 }
 
 .container {
@@ -158,32 +158,33 @@ h1 {
 }
 
 @media (max-width: 1000px) {
-    .container {
+   .container {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 10px 600px 10px ;
             grid-template-rows: 1fr 1fr 1fr;
             gap: 10px;
             justify-content: center;
             width: 100%;
+
     }
     
             .uudis1 {
                 display: flex;
-                grid-column-start: 1;
+                grid-column-start: 2;
                 grid-row: 2;
                 width: 100%;
             }
     
             .uudis2 {
                 display: flex;
-                grid-column-start: 1;
+                grid-column-start: 2;
                 grid-row: 3;
                 width: 100%;
             }
     
             .uudis3 {
                 display: flex;
-                grid-column-start: 1;
+                grid-column-start: 2;
                 grid-row: 4;
                 width: 100%;
             }
