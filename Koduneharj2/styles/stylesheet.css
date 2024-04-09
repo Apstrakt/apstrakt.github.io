@@ -1,5 +1,5 @@
 body {
-    background-color:#084b5e;
+    background-color: #084b5e;
 }
 
 .container {
@@ -55,7 +55,7 @@ h1 {
     position: absolute;
 }
 
-.uudis1 >.maintext > h2 {
+.uudis1 > .maintext > h2 {
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -94,7 +94,7 @@ h1 {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color:#f89468;
+    color: #f89468;
     text-shadow: rgb(0, 0, 0) 0 2px 2px, rgb(11, 12, 2) 0 8px 12px;
 }
 
@@ -108,18 +108,18 @@ h1 {
 }
 
 
- .b72 {
+.b72 {
     padding-left: 5%;
     width: 7em;
-} 
+}
 
 /* CSS */
 .button-72 {
-    
+
     align-items: center;
     background-color: initial;
     background-image: linear-gradient(rgba(132, 142, 201, 0.84), rgba(21, 88, 214, 0.84) 50%);
-    
+
     border-width: 0;
     box-shadow: rgba(6, 63, 1, 0.24) 0 2px 2px, rgba(22, 24, 1, 0.4) 0 8px 12px;
     color: #fffd01;
@@ -153,39 +153,39 @@ h1 {
         padding: 18px 34px;
     }
 
-    
-    
+
+
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .container {
-            display: grid;
-            grid-template-columns: 10px 600px 10px ;
-            grid-template-rows: 1fr 1fr 1fr;
-            gap: 10px;
-            justify-content: center;
-            width: 100%;
+        display: grid;
+        grid-template-columns: 10px 600px 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        width: 100%;
 
     }
-    
-            .uudis1 {
-                display: flex;
-                grid-column-start: 2;
-                grid-row: 2;
-                width: 100%;
-            }
-    
-            .uudis2 {
-                display: flex;
-                grid-column-start: 2;
-                grid-row: 3;
-                width: 100%;
-            }
-    
-            .uudis3 {
-                display: flex;
-                grid-column-start: 2;
-                grid-row: 4;
-                width: 100%;
-            }
+
+    .uudis1 {
+        display: flex;
+        grid-column-start: 2;
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .uudis2 {
+        display: flex;
+        grid-column-start: 2;
+        grid-row: 3;
+        width: 100%;
+    }
+
+    .uudis3 {
+        display: flex;
+        grid-column-start: 2;
+        grid-row: 4;
+        width: 100%;
+    }
 }
