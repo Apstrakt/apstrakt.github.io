@@ -162,10 +162,14 @@ h1 {
         display: grid;
         grid-template-columns: 10px 600px 10px;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 10px;
+        gap: 50px;
         justify-content: center;
         width: 100%;
 
+    }
+
+    h1 {
+        width: 100%;
     }
 
     .uudis1 {
