@@ -164,7 +164,7 @@ h1 {
             grid-template-rows: 1fr 1fr 1fr;
             gap: 10px;
             justify-content: center;
-
+            width: 100%;
     }
     
             .uudis1 {
