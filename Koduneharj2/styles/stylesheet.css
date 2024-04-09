@@ -161,7 +161,7 @@ h1 {
     .container {
         display: grid;
         grid-template-columns: 10px 768px 10px;
-        grid-template-rows: 0.2fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         gap: 50px;
         justify-content: center;
         width: 100%;
