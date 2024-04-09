@@ -164,7 +164,7 @@ h1 {
         grid-template-rows: 0.2fr 1fr 1fr 1fr;
         gap: 50px;
         justify-content: center space-evenly;
-        width: fit-content;
+        width: 100%;
 
     }
 
