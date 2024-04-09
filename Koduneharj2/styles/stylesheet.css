@@ -177,14 +177,14 @@ h1 {
         display: flex;
         grid-column-start: 2;
         grid-row: 2;
-        width: fit-content;
+        width: 150%;
     }
 
     .uudis2 {
         display: flex;
         grid-column-start: 2;
         grid-row: 3;
-        width: fit-content;
+        width: 150%;;
         
     }
 
@@ -192,7 +192,7 @@ h1 {
         display: flex;
         grid-column-start: 2;
         grid-row: 4;
-        width: fit-content;
+        width: 150%;
         
     }
 }
