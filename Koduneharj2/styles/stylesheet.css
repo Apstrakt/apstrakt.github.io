@@ -170,9 +170,8 @@ h1 {
     }
 
     h1 {
-        padding-left: 50px;
         width: 100%;
-        display: block;
+        display: inline;
         
     }
 
