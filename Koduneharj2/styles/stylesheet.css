@@ -160,7 +160,7 @@ h1 {
 @media  (max-width: 1000px) {
     .container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 50px;
         justify-content: center space-around;
