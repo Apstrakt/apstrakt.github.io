@@ -171,6 +171,9 @@ h1 {
     }
 
     h1 {
+        display: grid;
+        grid-template-columns: auto;
+        justify-self: center;
         margin-left: 30rem;
         
         
