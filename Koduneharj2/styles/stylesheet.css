@@ -172,7 +172,7 @@ h1 {
     .uudis1 {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 1;
+        grid-row: 1;
         grid-row-end: 1;
         gap:20px;
         max-width: 100%;
@@ -181,7 +181,7 @@ h1 {
     .uudis2 {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 2;
+        grid-row: 2;
         grid-row-end: 2;
         gap: 20px;
         max-width: 100%;
@@ -190,7 +190,7 @@ h1 {
     .uudis3 {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 3;
+        grid-row: 3;
         grid-row-end: 3;
         gap: 20px;
         max-width: 100%;
