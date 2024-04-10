@@ -2,7 +2,7 @@ body {
     background-color: #084b5e;
 }
 
-.container {
+.container-fluid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: auto;
@@ -192,4 +192,4 @@ h1 {
         grid-row-start: 3;
         width: 100%;
     }
-}
+} 
