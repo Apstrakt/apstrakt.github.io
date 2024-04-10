@@ -173,20 +173,20 @@ h1 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 1;
-        max-width: 100%;
+        width: 100%;
     }
 
     .uudis2 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 2;
-        max-width: 100%;
+        width: 100%;
     }
 
     .uudis3 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 3;
-        max-width: 100%;
+        width: 100%;
     }
 } 
