@@ -179,8 +179,8 @@ h1 {
  
 
     .uudis1 {
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
         gap:20px;
@@ -188,8 +188,8 @@ h1 {
     }
 
     .uudis2 {
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
         gap: 20px;
@@ -197,8 +197,8 @@ h1 {
     }
 
     .uudis3 {
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
         gap: 20px;
