@@ -157,7 +157,7 @@ h1 {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
