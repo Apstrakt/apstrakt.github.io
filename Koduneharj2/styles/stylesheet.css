@@ -2,7 +2,7 @@ body {
     background-color: #084b5e;
 }
 
-.container-fluid {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
