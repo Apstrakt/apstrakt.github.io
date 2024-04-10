@@ -164,7 +164,7 @@ h1 {
         grid-template-rows: 1fr 1fr 1fr;
         gap: 50px;
         justify-content: center space-around;
-        max-width: 100%;
+        width: 100%;
     }
 
  
@@ -173,20 +173,20 @@ h1 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 1;
-        width: 100%;
+        max-width: 100%;
     }
 
     .uudis2 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 2;
-        width: 100%;
+        max-width: 100%;
     }
 
     .uudis3 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 3;
-        width: 100%;
+        max-width: 100%;
     }
 } 
