@@ -70,7 +70,7 @@
    autod.push(autoBmw, autoAudi, autoToyota, autoKia, autoSubaru, autoFord, autoNissan, autoSubaru);
 
 
-console.log("Autod, mis on saadaval.");
+console.log("Autod ja nende omadused.");
 console.log("-----------------------")
 autod.forEach(function(autod) {
        if(autod.Saadavus) {
