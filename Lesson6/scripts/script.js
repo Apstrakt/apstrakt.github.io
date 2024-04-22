@@ -267,3 +267,7 @@ console.log(studentName3);
             Kuvada ainult need, mis ei ole ostetud. (8 autot)
         
     */
+
+
+    
+        
