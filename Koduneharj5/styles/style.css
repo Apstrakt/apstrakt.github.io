@@ -32,23 +32,30 @@
 }
 
 #health {
-    
-    
-    
     background-color: rgb(61, 238, 3);
     width: 100%;
     text-align: center;
     
 }
 
-#hp {
-    display: flex;
-    justify-content: start;
+h5 {
+    padding-left: 320px;
+}
+
+#hPoints {
     background-color: #fe0000;
     width: 0%;
     height: 50px;
     text-align: center;
 }
+
+
+.RemainingQ {
+    padding-left: 300px;
+    font-size: large;
+    
+}
+
 
 /*
 .hp5 {

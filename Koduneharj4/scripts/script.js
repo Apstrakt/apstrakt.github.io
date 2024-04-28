@@ -69,7 +69,7 @@
 
    autod.push(autoBmw, autoAudi, autoToyota, autoKia, autoSubaru, autoFord, autoNissan, autoSubaru);
 
-
+/*
 console.log("Autod ja nende omadused.");
 console.log("-----------------------")
 autod.forEach(function(autod) {
@@ -89,3 +89,38 @@ autod.forEach(function(autod) {
               console.log("Saadavus: Ei\n");
        }
 } );
+
+*/
+
+console.log("+++++++++++++++++");
+
+console.log("Autod ja nende omadused.");
+console.log("-----------------------")
+autod.forEach(function(autod) {
+       
+              console.log("Mark: " + autod.Mark);
+              console.log("Aasta: " + autod.Aasta);
+              console.log("Hind: €" + autod.Hind);
+              console.log("Värv: " + autod.Värv);
+              console.log("Saadavus:  " + (autod.Saadavus ? "Jah" : "Ei"));
+/* if(true) {
+       ...
+} else {
+       ...
+}
+       ifloogika ? "IF TRUE" : "IF FALSE"
+
+*/
+
+
+console.log("-------------")
+
+
+
+
+
+
+
+       });
+
+

@@ -96,7 +96,7 @@ console.log(studentName3);
     let taaviPos = students.indexOf("Taavi");
     console.log(taaviPos);
 
-//JSON - JavaScript Object Notation
+//JSON - JavaScript Object Notation  -- Let element []; - massiiv --
 
     
 

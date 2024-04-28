@@ -8,16 +8,17 @@
     </head>
     <body>
         <h1>Javascript 2</h1>
+            <br>
 
-
-        <div class="mb-3">
+ <!--     <div class="mb-3">
             <label for="userName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="userName">
+            <input type="text" class="form-control" id="userName"> -->
             <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
-        </div>
+<!--       </div>
         <button onclick="OnSubmit()" class="btn btn-primary">Submit</button>
         <br>
         <br>
+-->
         <h2>Matemaatiline mäng</h2>
         <!--
             Lihtsad tehed 1 -> 10, kus kasutame liitmise
@@ -27,17 +28,23 @@
             <label for="guessedNumber" class="form-label">Guess X</label>
             <input onchange="guessChanged()" type="number" class="form-control" id="guessedNumber">
             <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
+            
         </div>
+       <div id="endGame"><p>Life counter: <span id="counteroftries"></span></p></div>
 
-        <div id="health">
-            <div id="hp"><p> <span id="remainingAnsw"> </span> life points</p></div>
-        </div>
+        <p class="RemainingQ"> <span id="remainingAnsw"> </span> Equations left!</p>
+        <h5>Health bar</h5>
+        
+      <!-- <div id="health">
+            <div id="hPoints"></div>
+        </div> -->
         <br>
         <!--
         <div>
         <p>Remaining lives: <span id="remainingAnsw"></span></p>
         </div>
     -->
+    
         
         <div class="container">
             <div class="row">

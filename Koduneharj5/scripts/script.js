@@ -12,9 +12,11 @@ let random1 = 0;
 let random2 = 0;
 let answers = [];
 let pastEquasion = [];
-let hpEl = document.getElementById("hp");
-let width = 20;
 
+//let hpointsEl = document.getElementById("hPoints");
+//let width = 20;
+let count = 5;
+let counterEl = document.getElementById("counteroftries");
 NewGame();
 
 // Functions
@@ -50,7 +52,7 @@ function SelectorChanged() {
 // Show user new numbers
 function NewGame() {
     let maxGenerNumber = 11;
-    let maxEquasion = 5;//Math.pow(maxGenerNumber - 1, maxGenerNumber - 1) * 2;
+    let maxEquasion = 10;//Math.pow(maxGenerNumber - 1, maxGenerNumber - 1) * 2;
     random1 = GenerateRandomNumber(1, maxGenerNumber);
     random2 = GenerateRandomNumber(1, maxGenerNumber);
     isDiv = selectorEl.value == "both" ? GenerateRandomNumber(1, 3) == 1 : selectorEl.value == "-"; // Kui on 1 siis tegemist on lahutamisega
@@ -74,6 +76,8 @@ function NewGame() {
     }
     generatedNumberEl.innerHTML = generatedEquasion;
     remainingAnswEl.innerHTML = maxEquasion - pastEquasion.length;
+    counterEl.innerHTML = count - pastEquasion.length;
+
 
     // Reset Style
     guessedNumber.classList.remove("wrong");
@@ -92,7 +96,7 @@ function NewGame() {
 
 function WinPopUp() {
     if (confirm("Continue playing?")) {
-        Restart(true);
+         Restart(true); 
     } else {
         guessedNumber.disabled = true;
         guessBtn.disabled = true;
@@ -106,11 +110,19 @@ function LostPopUp() {
         answerEl.innerHTML = "X"; 
     } else {
         Restart(true);
-        let LifePointsEl = hpEl.style.width = width + "%";
-        
-} 
+       counterEl.innerHTML = count - pastEquasion.length;
+          
+          }
 }
+function YouLost() {
+    if (count == 0) {
+        function loserCondition(){
+            document.getElementById("endGame").style.display="none";
 
+        }
+    }
+
+}
 function GuessNumber() {
     // Local variable is located inside function
     let correctAnsw = isDiv ? Div2Numbers(random1, random2) : Sum2Numbers(random1, random2);
