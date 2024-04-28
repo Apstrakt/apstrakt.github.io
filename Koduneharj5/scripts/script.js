@@ -12,11 +12,11 @@ let random1 = 0;
 let random2 = 0;
 let answers = [];
 let pastEquasion = [];
-
+let count = 5;
 //let hpointsEl = document.getElementById("hPoints");
 //let width = 20;
-let count = 5;
-let counterEl = document.getElementById("counteroftries");
+
+const counterEl = document.getElementById("counteroftries");
 NewGame();
 
 // Functions
@@ -41,7 +41,7 @@ function Div2Numbers(num1, num2) {
 //console.log(`5 - 6 = ` + Div2Numbers(5, 6));
 //console.log(`7 - 10 = ` + Div2Numbers(7, 10));
 
-function GenerateRandomNumber(min, max) {
+function GenerateRandomNumber(min, max) {1
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
@@ -51,6 +51,7 @@ function SelectorChanged() {
 
 // Show user new numbers
 function NewGame() {
+    
     let maxGenerNumber = 11;
     let maxEquasion = 10;//Math.pow(maxGenerNumber - 1, maxGenerNumber - 1) * 2;
     random1 = GenerateRandomNumber(1, maxGenerNumber);
@@ -76,9 +77,9 @@ function NewGame() {
     }
     generatedNumberEl.innerHTML = generatedEquasion;
     remainingAnswEl.innerHTML = maxEquasion - pastEquasion.length;
-    counterEl.innerHTML = count - pastEquasion.length;
+    
 
-
+    
     // Reset Style
     guessedNumber.classList.remove("wrong");
     guessedNumber.classList.remove("correct");
@@ -110,19 +111,21 @@ function LostPopUp() {
         answerEl.innerHTML = "X"; 
     } else {
         Restart(true);
-       counterEl.innerHTML = count - pastEquasion.length;
-          
+        (count > 0) 
+        count -= 1;
+        counterEl.innerHTML = count;
+           if (count === 0) {
+        alert("Game Over!");
+        NewGame();
+        
+    }
           }
 }
-function YouLost() {
-    if (count == 0) {
-        function loserCondition(){
-            document.getElementById("endGame").style.display="none";
 
-        }
-    }
 
-}
+
+
+
 function GuessNumber() {
     // Local variable is located inside function
     let correctAnsw = isDiv ? Div2Numbers(random1, random2) : Sum2Numbers(random1, random2);
