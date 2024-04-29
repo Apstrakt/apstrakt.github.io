@@ -13,6 +13,14 @@ let random2 = 0;
 let answers = [];
 let pastEquasion = [];
 let count = 5;
+let timeToAnswer = () => {
+    let timeRunning = document.querySelector('.TimerLoader')
+    
+    timeRunning.setAttribute('id', 'start-timer')
+}
+
+
+
 //let hpointsEl = document.getElementById("hPoints");
 //let width = 20;
 
@@ -47,6 +55,7 @@ function GenerateRandomNumber(min, max) {1
 
 function SelectorChanged() {
     Restart(false);
+
 }
 
 // Show user new numbers
@@ -98,13 +107,15 @@ function NewGame() {
 function WinPopUp() {
     if (confirm("Continue playing?")) {
         Restart(true);
+         timeToAnswer()
+
     } else {
         guessedNumber.disabled = true;
         guessBtn.disabled = true;
         ShowPastAnswers();
     }
-}
 
+}
 
 
 function LostPopUp() {
@@ -174,7 +185,12 @@ function guessChanged() {
 function Restart(playerGuessed) {
     if(playerGuessed) {
         pastEquasion.push(generatedNumberEl.innerHTML.trim());
-    }
+        
+    
+        
+    
+       
+ }
     
     NewGame();
 }

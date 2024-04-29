@@ -31,20 +31,40 @@
     padding: 0px;
 }
 
-#health {
-    background-color: rgb(61, 238, 3);
-    width: 100%;
-    text-align: center;
+ .TimerBody{
+    
+    background-color: rgb(255, 255, 255);
+    
+    position: relative;
     
 }
 
-
-#hPoints {
-    background-color: #fe0000;
+.TimerLoader {
+    
     width: 0%;
+    background-color: #fe0000;
+    border: 7px;
     height: 50px;
-    text-align: center;
+    
 }
+
+#start-timer {
+    animation: none;
+    width: 0%;
+    animation: progress-animation 15s forwards;
+}
+
+@keyframes progress-animation {
+    0%  { width: 0%;}
+    100% { width: 100%;}
+}
+
+#endGame   {
+    padding-left: 300px;
+}
+
+
+
 
 
 .RemainingQ {
@@ -53,10 +73,3 @@
     }
 
 
-/*
-.hp5 {
-    background-color: green;
-    height: 50px;
-    border-radius: 10px;
-    padding: 10px;
-} */
