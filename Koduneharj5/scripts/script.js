@@ -97,7 +97,7 @@ function NewGame() {
 
 function WinPopUp() {
     if (confirm("Continue playing?")) {
-         Restart(true); 
+        Restart(true);
     } else {
         guessedNumber.disabled = true;
         guessBtn.disabled = true;
@@ -105,21 +105,26 @@ function WinPopUp() {
     }
 }
 
+
+
 function LostPopUp() {
     if (confirm("Try again?")) {
         guessedNumber.value = "";
         answerEl.innerHTML = "X"; 
     } else {
         Restart(true);
-        (count > 0) 
-        count -= 1;
-        counterEl.innerHTML = count;
-           if (count === 0) {
-        alert("Game Over!");
-        NewGame();
-        
+        if (count > 0) {
+            count -= 1; 
+            counterEl.innerHTML = count; 
+        }
+        if (count === 0) {
+            alert("Game Over!");
+            count = 5; // 
+            counterEl.innerHTML = count; 
+            NewGame(); // 
+            remainingAnswEl.innerHTML = "10"; 
+        }
     }
-          }
 }
 
 

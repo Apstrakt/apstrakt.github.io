@@ -38,9 +38,6 @@
     
 }
 
-h5 {
-    padding-left: 320px;
-}
 
 #hPoints {
     background-color: #fe0000;
@@ -53,8 +50,7 @@ h5 {
 .RemainingQ {
     padding-left: 300px;
     font-size: large;
-    
-}
+    }
 
 
 /*
